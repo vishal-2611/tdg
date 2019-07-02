@@ -1,0 +1,16 @@
+svg {
+  float: left;
+}
+
+path {
+  stroke: white;
+  stroke-width: 2px;
+  cursor: pointer;
+}
+
+path:hover {
+  fill: #000 !important;
+  transition: all .5s;
+  transform: scale(.95);
+  transform-origin: 50% 50%;
+}
